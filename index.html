@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A simple website demonstrating JavaScript variables and data types.">
+    <title>JavaScript Variable Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <header class="page-header">
+        <p class="eyebrow">A beginner JavaScript project</p>
+        <h1>JavaScript Variable Showcase</h1>
+        <p>This page uses JavaScript variables to share a few details. The values are also logged in the browser console.</p>
+      </header>
+
+      <section class="variable-card" aria-labelledby="variables-heading">
+        <h2 id="variables-heading">My variables</h2>
+        <dl class="variable-list">
+          <div class="variable">
+            <dt>My name <span>string</span></dt>
+            <dd id="student-name"></dd>
+          </div>
+          <div class="variable">
+            <dt>My favorite number <span>number</span></dt>
+            <dd id="favorite-number"></dd>
+          </div>
+          <div class="variable">
+            <dt>Am I learning JavaScript? <span>boolean</span></dt>
+            <dd id="is-learning"></dd>
+          </div>
+        </dl>
+        <p class="hint">Open your browser's developer console to see the same values logged with <code>console.log()</code>.</p>
+      </section>
+
+      <footer class="page-footer">
+        <p>Made with HTML, CSS, and JavaScript.</p>
+      </footer>
+    </main>
+  </body>
+</html>
