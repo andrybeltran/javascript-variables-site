@@ -1,4 +1,4 @@
-const studentName = "JavaScript Explorer";
+const studentName = "Andry Beltran";
 let favoriteNumber = 7;
 const isLearningJavaScript = true;
 
